@@ -12,14 +12,14 @@ export default function NewsSection() {
           <div className="text-xl text-center">
             ติดตามข่าวสารสาระความรู้ Data insight, Update service
             <br />
-            และกิจกรรมเสริมทักษะด้านข้อมูล
+            และกิจกรรมเสริมทักษะด้านข้อมูลได้ที่ Facebook: <span className="text-lime-300 font-bold">DIGI</span>
           </div>
           <div className="text-5xl leading-3 flex gap-4 space-between text-center">
             <a
               href={"https://www.facebook.com/DIGIInstituteThailand"}
               target="_blank"
             >
-              <FacebookIcon className="hover:text-white hover:text-6xl transition-all duration-100" />
+              <FacebookIcon className="rounded-full bg-sky-500 hover:bg-white hover:text-blue-500 hover:text-6xl transition-all duration-100" />
               {/* <span className="text-sm text-center">Facebook</span> */}
             </a>
           </div>

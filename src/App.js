@@ -13,9 +13,9 @@ function App() {
     <Body>
       <Navigator />
       <MovingBackground />
-      <OverTheTop className="container mx-auto px-6 md:px-12 xl:px-32 my-10 sm:my-20 lg:my-28">
+      <OverTheTop className="container mx-auto my-10 sm:my-20 lg:my-28">
         <div className="text-center text-gray-800">
-          <div className="rounded-lg shadow-lg px-6 py-12 md:py-14 md:px-12 bg-opacity-80 bg-white flex flex-col items-center">
+          <div className="rounded-lg shadow-lg px-6 py-12 md:py-14 md:px-12 bg-opacity-70 bg-white flex flex-col items-center">
             <img
               src={digiLongLogo}
               className={`w-full md:w-10/12 lg:w-8/12 mb-5 align-center`}

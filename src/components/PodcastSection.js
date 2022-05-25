@@ -13,9 +13,9 @@ export default function PodcastSection() {
         />
         <div className="flex-1 flex flex-col justify-center items-center gap-4 md:gap-10">
           <div className="text-xl text-center">
-            ติดตามสาระน่ารู้ของ data และ tech trend ใหม่ๆ
+            ติดตามสาระน่ารู้ของ data และ tech trend
             <br />
-            โดยผู้เชี่ยวชาญได้ที่รายการ DIGI Cast 
+            โดยผู้เชี่ยวชาญเฉพาะด้าน ที่รายการ <span className="text-lime-400 font-bold">DIGI Cast</span>
             <br />
             ผ่านช่องทาง Podbean และ Spotify
           </div>
@@ -35,7 +35,7 @@ export default function PodcastSection() {
               }
               target="_blank"
             >
-              <SpotifyIcon className="hover:text-green-400 hover:text-6xl transition-all duration-100" />
+              <SpotifyIcon className="rounded-full bg-sky-500 hover:bg-white hover:bg-opacity-100 hover:text-green-400 hover:text-6xl transition-all duration-100" />
               <span className="text-sm">Spotify</span>
             </a>
           </div>
