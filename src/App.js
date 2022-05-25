@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import Footer from "./components/footer"
+import MissionSection from "./components/MissionSection"
 import MovingBackground from "./components/moving-background"
 import Navigator from "./components/nav"
 import NewsSection from "./components/NewsSection"
@@ -29,12 +31,15 @@ function App() {
         </div>
       </OverTheTop>
 
+      <MissionSection />
+
       <NewsSection />
 
       <YoutubeSection />
 
       <PodcastSection />
-      
+
+      <Footer />
     </Body>
   )
 }

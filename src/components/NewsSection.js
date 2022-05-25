@@ -10,11 +10,16 @@ export default function NewsSection() {
         </div>
         <div className="flex-1 flex flex-col justify-center items-center gap-4 md:gap-10">
           <div className="text-xl text-center">
-            ติดตามข่าวสาร Data และการประกวด Data Content
+            ติดตามข่าวสารสาระความรู้ Data insight, Update service
+            <br />
+            และกิจกรรมเสริมทักษะด้านข้อมูล
           </div>
           <div className="text-5xl leading-3 flex gap-4 space-between text-center">
-            <a href={"https://www.youtube-nocookie.com/embed/HcQWavBle5c"}>
-              <FacebookIcon className="hover:text-sky-200 hover:text-6xl transition" />
+            <a
+              href={"https://www.facebook.com/DIGIInstituteThailand"}
+              target="_blank"
+            >
+              <FacebookIcon className="hover:text-white hover:text-6xl transition-all duration-100" />
               {/* <span className="text-sm text-center">Facebook</span> */}
             </a>
           </div>
