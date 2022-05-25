@@ -1,12 +1,15 @@
 import FacebookIcon from "../icon/Facebook"
+import Carousel from "./carousel"
 
 export default function NewsSection() {
   return (
-    <section className="my-10 py-10 min-h-20 bg-opacity-95 bg-sky-500 p-5 text-white">
-      <div className="flex flex-row justify-center gap-10">
-        <div className="h-60 w-3/4 bg-white rounded-2xl flex-1">รูปอะไรไม่รุ้</div>
-        <div className="flex-1 flex flex-col justify-center items-center gap-10">
-          <div className="text-xl">
+    <section className="my-10 py-10 min-h-20 bg-opacity-95 bg-sky-500 p-5 text-white h-fit">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10">
+        <div className="w-3/4 rounded-2xl flex-1 rounded-xl overflow-hidden">
+          <Carousel />
+        </div>
+        <div className="flex-1 flex flex-col justify-center items-center gap-4 md:gap-10">
+          <div className="text-xl text-center">
             ติดตามข่าวสาร Data และการประกวด Data Content
           </div>
           <div className="text-5xl leading-3 flex gap-4 space-between text-center">

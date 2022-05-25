@@ -25,10 +25,10 @@ export default function MovingBackground() {
           {/* <stop stop-color="hsl(217, 88%, 33.7%)" offset="0"></stop>
           <stop stop-color="hsl(217, 88%, 75.1%)" offset="1"></stop> */}
           {/* <stop stop-color="#7D65E4" offset="0.18"></stop> */}
-          <stop stop-color="#35addd" offset="0"></stop>
-          <stop stop-color="#3268b0" offset="0.15"></stop>
-          <stop stop-color="#48c585" offset="0.5"></stop>
-          <stop stop-color="#bee516" offset="1"></stop>
+          <stop stopColor="#35addd" offset="0"></stop>
+          <stop stopColor="#3268b0" offset="0.15"></stop>
+          <stop stopColor="#48c585" offset="0.5"></stop>
+          <stop stopColor="#bee516" offset="1"></stop>
         </linearGradient>
         <path d="" fill="url(#lg-0.047955344060927496)" opacity="0.4">
           <animate

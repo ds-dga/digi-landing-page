@@ -15,7 +15,7 @@ export default function PodcastSection() {
           <div className="text-xl">
             รายการที่พูดคุยเกี่ยวกับ Data กับผู้เชี่ยวชาญเฉพาะ
           </div>
-          <div className="text-5xl leading-3 flex gap-4 space-between text-center">
+          <div className="text-5xl leading-3 flex gap-4 md:gap-14 space-between text-center">
             <a
               className="flex flex-col items-center gap-1"
               href={
