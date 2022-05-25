@@ -1,6 +1,9 @@
 import styled from "styled-components"
 import MovingBackground from "./components/moving-background"
 import Navigator from "./components/nav"
+import NewsSection from "./components/NewsSection"
+import PodcastSection from "./components/PodcastSection"
+import YoutubeSection from "./components/YoutubeSection"
 import digiLongLogo from "./digi-long-logo.png"
 
 function App() {
@@ -25,75 +28,13 @@ function App() {
           </div>
         </div>
       </OverTheTop>
-      <section className="mt-20 mb-24 min-h-20 bg-opacity-95 bg-sky-500 p-5 text-white">
-        Hey
-        <br />
-        Hey
-        <br />
-        Hey
-        <br />
-        Hey
-        <br />
-        Hey
-        <br />
-        Hey
-        <br />
-        Hey
-        <br />
-      </section>
 
-      <section className="my-10 mb-24 min-h-20 bg-transparent p-5 text-sky-600">
-        You
-        <br />
-        You
-        <br />
-        You
-        <br />
-        You
-        <br />
-        You
-        <br />
-        You
-        <br />
-        You
-        <br />
-      </section>
+      <NewsSection />
 
-      <section className="my-10 mb-24 min-h-20 bg-opacity-95 bg-sky-500 p-5 text-white">
-        I<br />
-        figure
-        <br />
-        it's
-        <br />
-        true,
-        <br />
-        true,
-        <br />
-        yeah,
-        <br />
-        yeah You
-        <br />
-        know
-        <br />
-        what
-        <br />
-        you
-        <br />
-        do
-        <br />
-        to
-        <br />
-        me,
-        <br />
-        it's
-        <br />
-        crazy I'm
-        <br />
-        someone
-        <br />
-        else's baby
-        <br />
-      </section>
+      <YoutubeSection />
+
+      <PodcastSection />
+      
     </Body>
   )
 }
